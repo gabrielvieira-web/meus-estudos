@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 60px;
+    padding: 0 24px;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+button {
+    background-color: #0B5ED7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
