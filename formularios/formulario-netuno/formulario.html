@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form action="" method="POST" autocomplete="on">
+            <div class="campo">
+                <h1 class="titulo">Formulario de Cadastro</h1>
+                <p class="subtitulo"><strong>Preencha seus dados</strong></p>
+            </div>
+
+            <fieldset id="topo">
+                <div class="campo">
+                    <input type="text" name="nome" id="nome" autocomplete="name" required placeholder="Nome completo">
+                </div>
+
+                <div class="campo">
+                    <input type="email" name="email" id="email" autocomplete="email" required placeholder="E-mail">
+                </div>
+
+                <div class="campo">
+                    <select name="" id="" required>
+                        <option value="" selected disabled>Estado</option>
+                        <option value="">Acre</option>
+                        <option value="">Alagoas</option>
+                        <option value="">Amapá</option>
+                        <option value="">Amazonas</option>
+                        <option value="">Bahia</option>
+                        <option value="">Ceará</option>
+                        <option value="">Espírito Santo	</option>
+                        <option value="">Goiás</option>
+                        <option value="">Maranhão</option>
+                        <option value="">Mato Grosso</option>
+                        <option value="">Mato Grosso do Sul</option>
+                        <option value="">Minas Gerais</option>
+                        <option value="">Pará</option>
+                        <option value="">Paraíba	PB</option>
+                        <option value="">Paraná</option>
+                        <option value="">Pernambuco</option>
+                        <option value="">Piauí</option>
+                        <option value="">Rio de Janeiro</option>
+                        <option value="">Rio Grande do Nort</option>
+                        <option value="">Rio Grande do Sul</option>
+                        <option value="">Rondônia</option>
+                        <option value="">Roraima</option>
+                        <option value="">Santa Catarina</option>
+                        <option value="">São Paulo</option>
+                        <option value="">Sergipe</option>
+                        <option value="">Tocantins</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset id="meio">
+                <div id="checkbox">
+                    <label for="">Conhecimento de Programação</label><br><br>
+                    <input type="checkbox" name="HTML" id="iHTML" checked>
+                    <label for="iHTML">HTML</label>
+                    <input type="checkbox" name="CSS" id="iCSS">
+                    <label for="iCSS">CSS</label>
+                    <input type="checkbox" name="Javascript" id="iJavascript" checked>
+                    <label for="iJavascript">Javascript</label>
+                    <input type="checkbox" name="PHP" id="iPHP">
+                    <label for="iPHP">PHP</label>
+                    <input type="checkbox" name=".NET" id="i.NET">
+                    <label for="i.NET">.NET</label>
+                    <input type="checkbox" name="Vue.JS" id="iVue.JS">
+                    <label for="iVue.JS">Vue.JS</label>
+                    <input type="checkbox" name="ReactJS" id="iReactJS">
+                    <label for="iReactJS">ReactJS</label>
+                    <input type="checkbox" name="React Native" id="iReact Native" checked>
+                    <label for="iReact Native">React Native</label>
+                    <input type="checkbox" name="Node" id="iNode">
+                    <label for="iNode">Node</label>
+                    <input type="checkbox" name="Python" id="iPython">
+                    <label for="iPython">Python</label>
+                    <input type="checkbox" name="Flutter" id="iFlutter" checked>
+                    <label for="iFlutter">Flutter</label>
+                    <input type="checkbox" name="Outras" id="iOutras" checked>
+                    <label for="iOutras">Outras</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <label><strong>Já trabalhou com desenvolvimento?</strong></label><br><br>
+                <label>
+                    <input type="radio" name="devweb" id="nao" checked>Não
+                </label>
+                <label>
+                    <input type="radio" name="devweb" id="sim">Sim
+                </label>
+            </div>
+
+            <div id="border">
+                <!--AQUI VAI A BORDA-->
+            </div>
+
+            <div class="campo">
+                <p><strong>(*) Campos obrigatórios</strong></p>
+            </div>
+
+            <div class="container">
+                <button type="submit">Enviar</button>
+            </div>
+
+            <div class="campo">
+                <p>Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em <strong>polica de privacidade.</strong></p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
