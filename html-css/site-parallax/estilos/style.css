@@ -19,7 +19,6 @@ section.img1 {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 99vw;
 
     background: #7C7C7C url('../imagens/avenida.jpg') center bottom no-repeat;
     background-size: cover;
@@ -30,7 +29,6 @@ section.img1 {
     display: flex;
     align-items: center;
     background-color: #585858;
-    height: 70px;
     padding: 20px;
 }
 
@@ -39,8 +37,19 @@ section.img1 {
     color: white;
     font-size: 1.8em;
     font-weight: 500;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
+.conteudo {
+    display: flex;
+    justify-content: center;
+    background-color: #d11111;
+    height: 400px;
+}
+
+.conteudo .corpo-conteudo {
+    background-color: aqua;
+    width: 350px;
+}
 
 
