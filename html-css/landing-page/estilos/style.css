@@ -63,6 +63,7 @@ button:hover {
 .section1 h2 {
     color: #333333;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 50px;
     font-size: 1.7em;
 }

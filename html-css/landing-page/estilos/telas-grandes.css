@@ -1,6 +1,20 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 900px) {
+
+    header p {
+        width: 850px;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1 div {
+        width: 850px;
+    }
 
     .section1 p {
         columns: 2;
@@ -9,9 +23,14 @@
 
     .section2 {
         display: flex;
+        justify-content: center;
         gap: 20px;
 
         padding: 15px 25px 35px 25px;
+    }
+
+    .caixa {
+        width: 20%;
     }
 
     .caixa h3 {
@@ -22,6 +41,16 @@
     .caixa p {
         padding: 0px 20px 40px 20px;
         line-height: 1.5em;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3 p {
+        width: 850px;
     }
 
     .section4 {
@@ -39,6 +68,6 @@
     footer {
         display: flex;
         justify-content: center;
-        gap: 25%;
+        gap: 35%;
     }
 }
