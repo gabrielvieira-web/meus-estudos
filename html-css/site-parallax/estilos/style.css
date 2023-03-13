@@ -32,7 +32,7 @@ section.img1 {
     padding: 20px;
 }
 
-.titulo > h1 {
+.titulo > h1,h2 {
     text-transform: uppercase;
     color: white;
     font-size: 1.8em;
@@ -42,14 +42,67 @@ section.img1 {
 
 .conteudo {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: #d11111;
-    height: 400px;
+    padding: 4em;
+
+    background-color: #F4F4F4;
+    color: #666666;
 }
 
-.conteudo .corpo-conteudo {
-    background-color: aqua;
-    width: 350px;
+.conteudo h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.conteudo p {
+    line-height: 1.8em;
+    text-align: center;
+}
+
+section.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url('../imagens/avenida-desfoc.jpg') no-repeat bottom center fixed;
+    background-size: cover;
+
+    height: 70vh;
+}
+
+.conteudo-black {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+
+    background-color: #282E34;
+    color: #DDDDDD;
+}
+
+.conteudo-black h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.conteudo-black p {
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.img3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url('../imagens/paisagem.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    height: 70vh;
 }
 
 
